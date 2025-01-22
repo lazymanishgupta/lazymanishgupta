@@ -1,12 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>PORTFOLIO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Gupta | Lead Designer Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 0.5rem;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background: #f4f4f4;
+        }
+        .hero h2 {
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            margin-bottom: 2rem;
+        }
+        .btn {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #555;
+        }
+        .section {
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 800px;
+        }
+        .project {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            .hero {
+                padding: 2rem 1rem;
+            }
+            .btn {
+                padding: 0.75rem 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                padding: 1rem;
+            }
+            nav a {
+                margin: 0.5rem 0;
+            }
+            .hero {
+                padding: 1.5rem 1rem;
+            }
+            .section {
+                padding: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Manish Gupta</h1>
+        <p>Lead Designer | Crafting Impactful User Experiences</p>
+    </header>
 
-<h1>MANISH KUMAR GUPTA</h1>
-<p>SR. PRODUCT DEISIGNER</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
+    <section class="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>With 8+ years of experience, I design user-centric solutions in aviation, healthcare, and finance domains.</p>
+        <a href="#work" class="btn">View My Work</a>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I’m a Senior Product Designer with expertise in UX research, design systems, and cross-functional collaboration. My journey from Ballia to leading impactful projects across industries reflects my passion for design.</p>
+    </section>
+
+    <section id="work" class="section">
+        <h2>My Work</h2>
+        <div class="project">
+            <h3>Air India Employee Platform</h3>
+            <p>A unified platform enhancing employee communication and efficiency. Designed workflows for diverse user roles, improving satisfaction by 30%.</p>
+        </div>
+        <div class="project">
+            <h3>ICICI Campus Power</h3>
+            <p>An education-focused platform simplifying student banking. Boosted user adoption by 40%.</p>
+        </div>
+        <div class="project">
+            <h3>IDFC FIRST Bank OTT Dashboard</h3>
+            <p>Enhanced engagement through personalized user experiences, increasing retention by 25%.</p>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <h2>Resume</h2>
+        <p>Download my resume to see detailed experience and skills:</p>
+        <a href="resume.pdf" class="btn">Download Resume</a>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:manish@example.com">manish@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/manishgupta" target="_blank">linkedin.com/in/manishgupta</a></p>
+        <p>YouTube: <a href="https://youtube.com/markintech" target="_blank">Markin Tech</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Manish Gupta. All rights reserved.</p>
+    </footer>
 </body>
 </html>
